@@ -17,13 +17,13 @@ CSS 변형의 소개로, 엘레먼트는 이동하고, 회전하고, 기울어�
 
 우리가 삼차원으로 뛰어들기 전에, 우리는 유저들에게 이 기능이 주는 이점이 있는지 물어볼 필요가 있습니다.
 
-솔직해지자구요. CSS는 문서를 꾸미기 위해 만들어졌습니다. 그 이후에 애플리케이션을 다루기 위해 성장하였습니다. 하지만 아놔, CSS는 3D 모델링을 위한 개념이 아닙니다. 대신Instead, 3D transforms should be treated just like its fellow modern features like media queries, gradients, and transitions — as an **add-on.** 3D for websites works best when it adds to your interface, not replaces it. There is plenty of opportunity to use 3D transforms _in between_ the interface, via transitions.
+솔직해지자구요. CSS는 문서를 꾸미기 위해 만들어졌습니다. 그 이후에 애플리케이션을 다루기 위해 성장하였습니다. 하지만 아놔, CSS는 3D 모델링을 위한 개념이 아닙니다. 대신 3D 변형은 미디어 쿼리, 그라디언트, 트랜지션과 같은 그냥 여타 최신 기능들처럼 **애드온**으로써 다뤄져야 합니다. 웹사이트를 위한 3D는 인터페이스에 추가될 때 가장 효과를 발휘하지, 대체해서는 안 됩니다. 인터페이스 _중간중간에_ 트랜지션을 거치며 3D 변형을 사용할 기회가 충분히 많이 있습니다.
 
-Take for instance the Weather App for early iOS. The application used two views: a details view and an options view. Switching between these two views was done with a 3D flip transition. This afforded the user that the interface had two and only two views, one on each side of the panel.
+예전 iOS의 날씨 앱을 예로 들어봅시다. 이 앱은 두 화면을 사용하였습니다: 세부 내용 화면과 옵션 설정 화면이요. 두 화면을 전환하는 것은 3D 뒤집기 트랜지션을 통해 이루어집니다. 이는 유저에게 인터페이스가 패널의 한쪽 면에 하나씩, 단 두개의 화면만 제공한다는 것을 알립니다.
 
-![iPhone Weather App 3D flip transition](../img/weather-app-transition.jpg)
+![아이폰 날씨 앱의 3D 뒤집기 전환](../img/weather-app-transition.jpg)
 
-Also consider carousel cycle plugins. How can you communicate how the slides wrap around to repeat? With 3D, slides are placed side by side one another in a circle in 3D space. In that arrangement, the cyclic pattern of the carousel is self-evident.
+또한 캐러셀(carousel) 순환 플러그인도 생각해봅시다. 슬라이드가 되풀이되는 것을 어떻게 전달할 수 있을까요? With 3D, slides are placed side by side one another in a circle in 3D space. In that arrangement, the cyclic pattern of the carousel is self-evident.
 
 3D transforms can be more than just eye candy. We can use them to solve actual interface challenges and make our applications more intuitive.
 
