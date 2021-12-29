@@ -1,23 +1,25 @@
-# Intro to CSS 3D transforms
+# CSS 3D 변형 입문
 
-By [David DeSandro](https://desandro.com)
+저자 [David DeSandro](https://desandro.com)
+번역 - zzoyu
+개인 소장용 날림 번역입니다.
 
 [3dtransforms.desandro.com](https://3dtransforms.desandro.com)
 
-Tutorial, examples, and discussion all about CSS 3D transforms.
+CSS 3D 변형에 대한 튜토리얼, 예제, 논의
 
-Originally written for [24 ways 2010](https://24ways.org/2010/intro-to-css-3d-transforms).
+원안이 된 글 [24 ways 2010](https://24ways.org/2010/intro-to-css-3d-transforms).
 
-## Viewing this project locally
+## 로컬 환경에서 본 프로젝트 열람하기
 
-This project is built with [Jekyll](https://jekyllrb.com).
+이 프로젝트는 [Jekyll](https://jekyllrb.com)로 작성되었습니다.
 
     git clone https://github.com/desandro/3dtransforms.git
     cd 3dtransforms/
     jekyll serve
 
-## License
+## 라이선스
 
-Written content is licensed under a [Creative Commons Attribution License](https://creativecommons.org/licenses/by/4.0/).
+작성된 내용은 [Creative Commons Attribution License](https://creativecommons.org/licenses/by/4.0/)를 따릅니다.
 
-Example code is licensed under the [MIT license](https://desandro.mit-license.org). Have at it.
+예제 코드는 [MIT license](https://desandro.mit-license.org)라이선스를 따릅니다. 자유롭게 사용하세요.
